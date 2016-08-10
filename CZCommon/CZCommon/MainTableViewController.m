@@ -10,6 +10,7 @@
 
 #import "PopoverController.h"
 #import "HSDealerProxy.h"
+#import "RuntimeController.h"
 
 
 @interface MainTableViewController ()
@@ -28,7 +29,7 @@
 
 - (NSArray *)listTitles{
     if (_listTitles) return _listTitles;
-    _listTitles = @[@"PopoverView",@"NSProxy"];
+    _listTitles = @[@"PopoverView",@"NSProxy",@"Runtime"];
     return _listTitles;
 
 }
@@ -60,9 +61,8 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
+     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     if (indexPath.row == 0) {
-        UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         PopoverController *popoverVC =  [storyBoard instantiateViewControllerWithIdentifier:@"PopoverController"];
         [self.navigationController pushViewController:popoverVC animated:YES];
     } else if (indexPath.row == 1) {
@@ -70,6 +70,10 @@
         HSDealerProxy *dealerProxy = [HSDealerProxy dealerProxy];
         [dealerProxy purchaseBookWithTitle:@"Swift 100 Tips"];
         [dealerProxy purchaseClothesWithSize:HSClothesSizeMedium];
+    } else if (indexPath.row == 2)  {
+        
+       RuntimeController *runtimeVC = [storyBoard instantiateViewControllerWithIdentifier:@"RuntimeController"];
+        [self.navigationController pushViewController:runtimeVC animated:YES];
     }
     
     

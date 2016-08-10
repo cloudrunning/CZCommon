@@ -31,6 +31,7 @@
                     <navigationItem key="navigationItem" title="Root View Controller" id="aCB-sk-hU2"/>
                     <connections>
                         <segue destination="G65-Xf-Ryq" kind="showDetail" id="efs-3Y-w12"/>
+                        <segue destination="ipG-e2-EJb" kind="show" id="O3w-H1-6q0"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzz-bH-tvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -53,7 +54,81 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HZd-H9-rEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-933" y="439"/>
+            <point key="canvasLocation" x="-937" y="88"/>
+        </scene>
+        <!--Runtime Controller-->
+        <scene sceneID="U3M-D5-rnj">
+            <objects>
+                <viewController storyboardIdentifier="RuntimeController" id="ipG-e2-EJb" customClass="RuntimeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dLN-Wh-eyX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Iaq-Bg-3lx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xuh-yu-dbE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="puQ-a9-w0B">
+                                <rect key="frame" x="0.0" y="10" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="MaG-6D-5RX"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1K-Wm-0Dx">
+                                <rect key="frame" x="22" y="114" width="125" height="30"/>
+                                <state key="normal" title="1.0方法的简单交换"/>
+                                <connections>
+                                    <action selector="methodExchangeAction:" destination="ipG-e2-EJb" eventType="touchUpInside" id="oIt-lr-ojT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWn-i5-P9f">
+                                <rect key="frame" x="21" y="241" width="127" height="30"/>
+                                <state key="normal" title="3.0类别中增加属性"/>
+                                <connections>
+                                    <action selector="categotyAddPropertyAction:" destination="ipG-e2-EJb" eventType="touchUpInside" id="i6O-dT-LFp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4.0 获得一个类的所有成员变量" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pHH-im-cCP">
+                                <rect key="frame" x="21" y="299" width="233" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKm-y6-nLX">
+                                <rect key="frame" x="64" y="340" width="292" height="30"/>
+                                <state key="normal" title="4.1获取Person类所有成员变量的名字和类型"/>
+                                <connections>
+                                    <action selector="getAllPropertiesAndTypesOfPersonAction:" destination="ipG-e2-EJb" eventType="touchUpInside" id="Uw4-Dr-0q9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3VA-TG-0W6">
+                                <rect key="frame" x="64" y="385" width="236" height="30"/>
+                                <state key="normal" title="4.2 获取所有属性重写归档接档方法"/>
+                                <connections>
+                                    <action selector="decodeAndEncodeAction:" destination="ipG-e2-EJb" eventType="touchUpInside" id="g5G-2F-prF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdC-np-yhL">
+                                <rect key="frame" x="64" y="433" width="217" height="30"/>
+                                <state key="normal" title="4.3获取所有属性进行字典转模型"/>
+                                <connections>
+                                    <action selector="translateDicToModel:" destination="ipG-e2-EJb" eventType="touchUpInside" id="RaP-cW-byH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wK0-2f-bMT">
+                                <rect key="frame" x="21" y="176" width="112" height="30"/>
+                                <state key="normal" title="2.0拦截系统方法"/>
+                                <connections>
+                                    <action selector="interceptSystemMethod:" destination="ipG-e2-EJb" eventType="touchUpInside" id="Gdt-OG-0ce"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGH-9f-bJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-887" y="920"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YUw-5H-0Jh">

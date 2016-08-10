@@ -24,6 +24,11 @@
 		8D67CB4E1D5AB499001E3BD4 /* HSBookProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB4D1D5AB499001E3BD4 /* HSBookProvider.m */; };
 		8D67CB511D5AB4BD001E3BD4 /* HSClothesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB501D5AB4BD001E3BD4 /* HSClothesProvider.m */; };
 		8D67CB541D5AB685001E3BD4 /* HSDealerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB531D5AB685001E3BD4 /* HSDealerProxy.m */; };
+		8D67CB581D5B027B001E3BD4 /* RuntimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB571D5B027B001E3BD4 /* RuntimeController.m */; };
+		8D67CB5B1D5B03E9001E3BD4 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB5A1D5B03E9001E3BD4 /* Person.m */; };
+		8D67CB5E1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB5D1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m */; };
+		8D67CB611D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB601D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m */; };
+		8D67CB631D5B1FB9001E3BD4 /* personJSON.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 8D67CB621D5B1FB9001E3BD4 /* personJSON.geojson */; };
 		A231A718BCE811C3D869D39E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DECC2662C555F12F7CC27E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +68,15 @@
 		8D67CB501D5AB4BD001E3BD4 /* HSClothesProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSClothesProvider.m; sourceTree = "<group>"; };
 		8D67CB521D5AB685001E3BD4 /* HSDealerProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSDealerProxy.h; sourceTree = "<group>"; };
 		8D67CB531D5AB685001E3BD4 /* HSDealerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSDealerProxy.m; sourceTree = "<group>"; };
+		8D67CB561D5B027B001E3BD4 /* RuntimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeController.h; sourceTree = "<group>"; };
+		8D67CB571D5B027B001E3BD4 /* RuntimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeController.m; sourceTree = "<group>"; };
+		8D67CB591D5B03E9001E3BD4 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8D67CB5A1D5B03E9001E3BD4 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8D67CB5C1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+runtimeAddProperty.h"; sourceTree = "<group>"; };
+		8D67CB5D1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+runtimeAddProperty.m"; sourceTree = "<group>"; };
+		8D67CB5F1D5B10DB001E3BD4 /* NSObject+EnAndDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EnAndDecoder.h"; sourceTree = "<group>"; };
+		8D67CB601D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EnAndDecoder.m"; sourceTree = "<group>"; };
+		8D67CB621D5B1FB9001E3BD4 /* personJSON.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = personJSON.geojson; sourceTree = "<group>"; };
 		FE0714667C046152A07A96C1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +149,7 @@
 		8D67CB041D599E07001E3BD4 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				8D67CB551D5AFF77001E3BD4 /* Runtime */,
 				8D67CB4B1D5AB469001E3BD4 /* NSProxy */,
 				8D67CB061D599E45001E3BD4 /* popover */,
 			);
@@ -147,6 +162,8 @@
 			children = (
 				8D67CB0A1D599E88001E3BD4 /* PopoverController.h */,
 				8D67CB0B1D599E88001E3BD4 /* PopoverController.m */,
+				8D67CB561D5B027B001E3BD4 /* RuntimeController.h */,
+				8D67CB571D5B027B001E3BD4 /* RuntimeController.m */,
 			);
 			path = vcs;
 			sourceTree = "<group>";
@@ -215,6 +232,20 @@
 				8D67CB531D5AB685001E3BD4 /* HSDealerProxy.m */,
 			);
 			path = NSProxy;
+			sourceTree = "<group>";
+		};
+		8D67CB551D5AFF77001E3BD4 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				8D67CB591D5B03E9001E3BD4 /* Person.h */,
+				8D67CB5A1D5B03E9001E3BD4 /* Person.m */,
+				8D67CB621D5B1FB9001E3BD4 /* personJSON.geojson */,
+				8D67CB5C1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.h */,
+				8D67CB5D1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m */,
+				8D67CB5F1D5B10DB001E3BD4 /* NSObject+EnAndDecoder.h */,
+				8D67CB601D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m */,
+			);
+			path = Runtime;
 			sourceTree = "<group>";
 		};
 		F260DEB3895D5ECCB481B884 /* Frameworks */ = {
@@ -287,6 +318,7 @@
 			files = (
 				8D67CAF51D597E36001E3BD4 /* LaunchScreen.storyboard in Resources */,
 				8D67CAF21D597E36001E3BD4 /* Assets.xcassets in Resources */,
+				8D67CB631D5B1FB9001E3BD4 /* personJSON.geojson in Resources */,
 				8D67CAF01D597E36001E3BD4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D67CB091D599E58001E3BD4 /* HSPopover.m in Sources */,
+				8D67CB611D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m in Sources */,
 				8D67CB1C1D59AE4C001E3BD4 /* NBNetworking.m in Sources */,
 				8D67CB211D59B675001E3BD4 /* NSArray+Util.m in Sources */,
 				8D67CB511D5AB4BD001E3BD4 /* HSClothesProvider.m in Sources */,
@@ -356,7 +389,10 @@
 				8D67CB121D59A6C7001E3BD4 /* NSString+Util.m in Sources */,
 				8D67CAEA1D597E36001E3BD4 /* AppDelegate.m in Sources */,
 				8D67CB0C1D599E88001E3BD4 /* PopoverController.m in Sources */,
+				8D67CB5E1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m in Sources */,
+				8D67CB5B1D5B03E9001E3BD4 /* Person.m in Sources */,
 				8D67CB271D59B6B4001E3BD4 /* NSObject+Util.m in Sources */,
+				8D67CB581D5B027B001E3BD4 /* RuntimeController.m in Sources */,
 				8D67CAE71D597E36001E3BD4 /* main.m in Sources */,
 				8D67CB241D59B683001E3BD4 /* NSDictionary+Util.m in Sources */,
 				8D67CB011D597F15001E3BD4 /* MainTableViewController.m in Sources */,
