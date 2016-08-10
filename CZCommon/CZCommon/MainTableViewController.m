@@ -9,6 +9,8 @@
 #import "MainTableViewController.h"
 
 #import "PopoverController.h"
+#import "HSDealerProxy.h"
+
 
 @interface MainTableViewController ()
 @property (nonatomic,strong) NSArray *listTitles;
@@ -26,7 +28,7 @@
 
 - (NSArray *)listTitles{
     if (_listTitles) return _listTitles;
-    _listTitles = @[@"PopoverView"];
+    _listTitles = @[@"PopoverView",@"NSProxy"];
     return _listTitles;
 
 }
@@ -63,6 +65,11 @@
         UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
         PopoverController *popoverVC =  [storyBoard instantiateViewControllerWithIdentifier:@"PopoverController"];
         [self.navigationController pushViewController:popoverVC animated:YES];
+    } else if (indexPath.row == 1) {
+    
+        HSDealerProxy *dealerProxy = [HSDealerProxy dealerProxy];
+        [dealerProxy purchaseBookWithTitle:@"Swift 100 Tips"];
+        [dealerProxy purchaseClothesWithSize:HSClothesSizeMedium];
     }
     
     

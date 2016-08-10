@@ -1,2 +1,3 @@
 pod 'HYBHelperKit', '~> 0.2.0'
 pod 'AFNetworking'
+pod 'WSProgressHUD'
