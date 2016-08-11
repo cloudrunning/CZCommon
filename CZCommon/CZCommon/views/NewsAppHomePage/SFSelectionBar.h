@@ -22,6 +22,9 @@
 
 @property (nonatomic,strong) UIColor *lineColor;
 
+@property (nonatomic,assign) NSInteger curIndex;
+
+
 
 - (void)reloadData;
 

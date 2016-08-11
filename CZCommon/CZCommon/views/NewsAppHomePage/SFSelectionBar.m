@@ -15,7 +15,6 @@
     UIView       *_lineView;
     NSArray      *_widths;
 }
-@property (nonatomic,assign) NSInteger curIndex;
 @property (nonatomic,strong) UIButton *curBtn;
 @property (nonatomic,strong) NSMutableArray<UIButton *> *items;
 
@@ -78,6 +77,7 @@ static const CGFloat halfSpacing = 15.0;
 
     return widths;
 }
+
 
 - (CGFloat)contentWidthAndAddTabBarItemsWithButtonsWidth:(NSArray *)widths{
 

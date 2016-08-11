@@ -77,7 +77,7 @@
         [self.navigationController pushViewController:runtimeVC animated:YES];
     } else if (indexPath.row == 3){
         NewsAppHomeController *newsVC = [storyBoard instantiateViewControllerWithIdentifier:@"NewsAppHomeController"];
-        [self.navigationController pushViewController:newsVC animated:YES];
+        [UIApplication sharedApplication].keyWindow.rootViewController = newsVC;
     }
     
     

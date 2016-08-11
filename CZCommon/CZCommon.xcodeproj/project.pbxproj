@@ -31,6 +31,8 @@
 		8D67CB631D5B1FB9001E3BD4 /* personJSON.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 8D67CB621D5B1FB9001E3BD4 /* personJSON.geojson */; };
 		8D67CB671D5C1DD8001E3BD4 /* NewsAppHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB661D5C1DD8001E3BD4 /* NewsAppHomeController.m */; };
 		8D67CB6A1D5C1E37001E3BD4 /* SFSelectionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB691D5C1E37001E3BD4 /* SFSelectionBar.m */; };
+		8D67CB701D5C51F1001E3BD4 /* SocietyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB6E1D5C51F1001E3BD4 /* SocietyController.m */; };
+		8D67CB711D5C51F1001E3BD4 /* SocietyController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D67CB6F1D5C51F1001E3BD4 /* SocietyController.xib */; };
 		A231A718BCE811C3D869D39E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DECC2662C555F12F7CC27E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +86,9 @@
 		8D67CB681D5C1E37001E3BD4 /* SFSelectionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSelectionBar.h; sourceTree = "<group>"; };
 		8D67CB691D5C1E37001E3BD4 /* SFSelectionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSelectionBar.m; sourceTree = "<group>"; };
 		8D67CB6B1D5C1F17001E3BD4 /* CZCommonPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCommonPrefixHeader.pch; sourceTree = "<group>"; };
+		8D67CB6D1D5C51F1001E3BD4 /* SocietyController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocietyController.h; sourceTree = "<group>"; };
+		8D67CB6E1D5C51F1001E3BD4 /* SocietyController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocietyController.m; sourceTree = "<group>"; };
+		8D67CB6F1D5C51F1001E3BD4 /* SocietyController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocietyController.xib; sourceTree = "<group>"; };
 		FE0714667C046152A07A96C1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -175,6 +180,7 @@
 				8D67CB571D5B027B001E3BD4 /* RuntimeController.m */,
 				8D67CB651D5C1DD8001E3BD4 /* NewsAppHomeController.h */,
 				8D67CB661D5C1DD8001E3BD4 /* NewsAppHomeController.m */,
+				8D67CB6C1D5C50A9001E3BD4 /* NewsAppHomeSubviews */,
 			);
 			path = vcs;
 			sourceTree = "<group>";
@@ -268,6 +274,16 @@
 			path = NewsAppHomePage;
 			sourceTree = "<group>";
 		};
+		8D67CB6C1D5C50A9001E3BD4 /* NewsAppHomeSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				8D67CB6D1D5C51F1001E3BD4 /* SocietyController.h */,
+				8D67CB6E1D5C51F1001E3BD4 /* SocietyController.m */,
+				8D67CB6F1D5C51F1001E3BD4 /* SocietyController.xib */,
+			);
+			name = NewsAppHomeSubviews;
+			sourceTree = "<group>";
+		};
 		F260DEB3895D5ECCB481B884 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D67CAF51D597E36001E3BD4 /* LaunchScreen.storyboard in Resources */,
+				8D67CB711D5C51F1001E3BD4 /* SocietyController.xib in Resources */,
 				8D67CAF21D597E36001E3BD4 /* Assets.xcassets in Resources */,
 				8D67CB631D5B1FB9001E3BD4 /* personJSON.geojson in Resources */,
 				8D67CAF01D597E36001E3BD4 /* Main.storyboard in Resources */,
@@ -416,6 +433,7 @@
 				8D67CB671D5C1DD8001E3BD4 /* NewsAppHomeController.m in Sources */,
 				8D67CAE71D597E36001E3BD4 /* main.m in Sources */,
 				8D67CB241D59B683001E3BD4 /* NSDictionary+Util.m in Sources */,
+				8D67CB701D5C51F1001E3BD4 /* SocietyController.m in Sources */,
 				8D67CB011D597F15001E3BD4 /* MainTableViewController.m in Sources */,
 				8D67CB6A1D5C1E37001E3BD4 /* SFSelectionBar.m in Sources */,
 			);
