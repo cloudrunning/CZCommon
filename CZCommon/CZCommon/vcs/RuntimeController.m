@@ -98,7 +98,7 @@
     NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data  options:NSJSONReadingMutableContainers error:nil];
     NSLog(@"%@",dict);
     
-    Person *person = [Person objectWithDict:dict];
+//    Person *person = [Person objectWithDict:dict];
 }
 
 

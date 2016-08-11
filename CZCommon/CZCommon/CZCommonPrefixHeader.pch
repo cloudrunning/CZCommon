@@ -1,0 +1,14 @@
+//
+//  CZCommonPrefixHeader.pch
+//  CZCommon
+//
+//  Created by caozhen@neusoft on 16/8/11.
+//  Copyright © 2016年 Neusoft. All rights reserved.
+//
+
+#ifndef CZCommonPrefixHeader_pch
+#define CZCommonPrefixHeader_pch
+
+#import "CZCommonMacro.h"
+
+#endif /* CZCommonPrefixHeader_pch */

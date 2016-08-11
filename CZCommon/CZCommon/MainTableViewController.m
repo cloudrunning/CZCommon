@@ -11,6 +11,7 @@
 #import "PopoverController.h"
 #import "HSDealerProxy.h"
 #import "RuntimeController.h"
+#import "NewsAppHomeController.h"
 
 
 @interface MainTableViewController ()
@@ -29,7 +30,7 @@
 
 - (NSArray *)listTitles{
     if (_listTitles) return _listTitles;
-    _listTitles = @[@"PopoverView",@"NSProxy",@"Runtime"];
+    _listTitles = @[@"PopoverView",@"NSProxy",@"Runtime",@"NewsAppHome"];
     return _listTitles;
 
 }
@@ -74,6 +75,9 @@
         
        RuntimeController *runtimeVC = [storyBoard instantiateViewControllerWithIdentifier:@"RuntimeController"];
         [self.navigationController pushViewController:runtimeVC animated:YES];
+    } else if (indexPath.row == 3){
+        NewsAppHomeController *newsVC = [storyBoard instantiateViewControllerWithIdentifier:@"NewsAppHomeController"];
+        [self.navigationController pushViewController:newsVC animated:YES];
     }
     
     

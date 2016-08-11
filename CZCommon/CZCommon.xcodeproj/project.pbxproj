@@ -29,6 +29,8 @@
 		8D67CB5E1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB5D1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m */; };
 		8D67CB611D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB601D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m */; };
 		8D67CB631D5B1FB9001E3BD4 /* personJSON.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 8D67CB621D5B1FB9001E3BD4 /* personJSON.geojson */; };
+		8D67CB671D5C1DD8001E3BD4 /* NewsAppHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB661D5C1DD8001E3BD4 /* NewsAppHomeController.m */; };
+		8D67CB6A1D5C1E37001E3BD4 /* SFSelectionBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CB691D5C1E37001E3BD4 /* SFSelectionBar.m */; };
 		A231A718BCE811C3D869D39E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DECC2662C555F12F7CC27E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +79,11 @@
 		8D67CB5F1D5B10DB001E3BD4 /* NSObject+EnAndDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EnAndDecoder.h"; sourceTree = "<group>"; };
 		8D67CB601D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EnAndDecoder.m"; sourceTree = "<group>"; };
 		8D67CB621D5B1FB9001E3BD4 /* personJSON.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = personJSON.geojson; sourceTree = "<group>"; };
+		8D67CB651D5C1DD8001E3BD4 /* NewsAppHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsAppHomeController.h; sourceTree = "<group>"; };
+		8D67CB661D5C1DD8001E3BD4 /* NewsAppHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsAppHomeController.m; sourceTree = "<group>"; };
+		8D67CB681D5C1E37001E3BD4 /* SFSelectionBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSelectionBar.h; sourceTree = "<group>"; };
+		8D67CB691D5C1E37001E3BD4 /* SFSelectionBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSelectionBar.m; sourceTree = "<group>"; };
+		8D67CB6B1D5C1F17001E3BD4 /* CZCommonPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCommonPrefixHeader.pch; sourceTree = "<group>"; };
 		FE0714667C046152A07A96C1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +139,7 @@
 				8D67CAEE1D597E36001E3BD4 /* Main.storyboard */,
 				8D67CAF11D597E36001E3BD4 /* Assets.xcassets */,
 				8D67CAF31D597E36001E3BD4 /* LaunchScreen.storyboard */,
+				8D67CB6B1D5C1F17001E3BD4 /* CZCommonPrefixHeader.pch */,
 				8D67CAF61D597E36001E3BD4 /* Info.plist */,
 				8D67CAE51D597E36001E3BD4 /* Supporting Files */,
 			);
@@ -149,6 +157,7 @@
 		8D67CB041D599E07001E3BD4 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				8D67CB641D5C1DAF001E3BD4 /* NewsAppHomePage */,
 				8D67CB551D5AFF77001E3BD4 /* Runtime */,
 				8D67CB4B1D5AB469001E3BD4 /* NSProxy */,
 				8D67CB061D599E45001E3BD4 /* popover */,
@@ -164,6 +173,8 @@
 				8D67CB0B1D599E88001E3BD4 /* PopoverController.m */,
 				8D67CB561D5B027B001E3BD4 /* RuntimeController.h */,
 				8D67CB571D5B027B001E3BD4 /* RuntimeController.m */,
+				8D67CB651D5C1DD8001E3BD4 /* NewsAppHomeController.h */,
+				8D67CB661D5C1DD8001E3BD4 /* NewsAppHomeController.m */,
 			);
 			path = vcs;
 			sourceTree = "<group>";
@@ -246,6 +257,15 @@
 				8D67CB601D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m */,
 			);
 			path = Runtime;
+			sourceTree = "<group>";
+		};
+		8D67CB641D5C1DAF001E3BD4 /* NewsAppHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8D67CB681D5C1E37001E3BD4 /* SFSelectionBar.h */,
+				8D67CB691D5C1E37001E3BD4 /* SFSelectionBar.m */,
+			);
+			path = NewsAppHomePage;
 			sourceTree = "<group>";
 		};
 		F260DEB3895D5ECCB481B884 /* Frameworks */ = {
@@ -393,9 +413,11 @@
 				8D67CB5B1D5B03E9001E3BD4 /* Person.m in Sources */,
 				8D67CB271D59B6B4001E3BD4 /* NSObject+Util.m in Sources */,
 				8D67CB581D5B027B001E3BD4 /* RuntimeController.m in Sources */,
+				8D67CB671D5C1DD8001E3BD4 /* NewsAppHomeController.m in Sources */,
 				8D67CAE71D597E36001E3BD4 /* main.m in Sources */,
 				8D67CB241D59B683001E3BD4 /* NSDictionary+Util.m in Sources */,
 				8D67CB011D597F15001E3BD4 /* MainTableViewController.m in Sources */,
+				8D67CB6A1D5C1E37001E3BD4 /* SFSelectionBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +530,8 @@
 			baseConfigurationReference = 027501E5D634C9855A77E4DD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CZCommon/CZCommonPrefixHeader.pch";
 				INFOPLIST_FILE = CZCommon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.CZCommon;
@@ -520,6 +544,8 @@
 			baseConfigurationReference = FE0714667C046152A07A96C1 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CZCommon/CZCommonPrefixHeader.pch";
 				INFOPLIST_FILE = CZCommon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.CZCommon;

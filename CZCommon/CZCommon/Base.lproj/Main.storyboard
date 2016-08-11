@@ -32,6 +32,7 @@
                     <connections>
                         <segue destination="G65-Xf-Ryq" kind="showDetail" id="efs-3Y-w12"/>
                         <segue destination="ipG-e2-EJb" kind="show" id="O3w-H1-6q0"/>
+                        <segue destination="1ZV-yQ-cLO" kind="show" id="x5u-JW-LJ5"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lzz-bH-tvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -54,7 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HZd-H9-rEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-937" y="88"/>
+            <point key="canvasLocation" x="-917" y="-224"/>
         </scene>
         <!--Runtime Controller-->
         <scene sceneID="U3M-D5-rnj">
@@ -128,7 +129,60 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGH-9f-bJc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-887" y="920"/>
+            <point key="canvasLocation" x="-905" y="439"/>
+        </scene>
+        <!--News App Home Controller-->
+        <scene sceneID="6sh-2V-hxn">
+            <objects>
+                <viewController storyboardIdentifier="NewsAppHomeController" id="1ZV-yQ-cLO" customClass="NewsAppHomeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="43F-rQ-PBc"/>
+                        <viewControllerLayoutGuide type="bottom" id="0zh-91-7fP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="nSY-o4-cKu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="selectionBar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAR-uQ-Frg">
+                                <rect key="frame" x="51" y="121" width="95" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="tT0-9l-8Vk"/>
+                                    <constraint firstAttribute="height" constant="21" id="w0d-Mr-Rj9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CzS-aD-MN2">
+                                <rect key="frame" x="0.0" y="213" width="600" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fPg-X9-SSo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WAR-uQ-Frg" firstAttribute="top" secondItem="43F-rQ-PBc" secondAttribute="bottom" constant="57" id="0rM-72-GgI"/>
+                            <constraint firstAttribute="trailing" secondItem="CzS-aD-MN2" secondAttribute="trailing" id="8sM-L6-Zgt"/>
+                            <constraint firstItem="0zh-91-7fP" firstAttribute="top" secondItem="CzS-aD-MN2" secondAttribute="bottom" constant="40" id="B38-vn-NUo"/>
+                            <constraint firstItem="WAR-uQ-Frg" firstAttribute="leading" secondItem="nSY-o4-cKu" secondAttribute="leading" constant="51" id="GQf-ls-4cS"/>
+                            <constraint firstItem="CzS-aD-MN2" firstAttribute="top" secondItem="WAR-uQ-Frg" secondAttribute="bottom" constant="71" id="qaJ-Dv-ncn"/>
+                            <constraint firstItem="CzS-aD-MN2" firstAttribute="leading" secondItem="nSY-o4-cKu" secondAttribute="leading" id="sIm-hT-N3J"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="B38-vn-NUo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="referView" destination="CzS-aD-MN2" id="sQg-kS-S7X"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cV4-kh-tdh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-890" y="1185"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YUw-5H-0Jh">
