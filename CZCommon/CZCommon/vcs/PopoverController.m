@@ -34,7 +34,11 @@
 }
 
 - (IBAction)rightAction:(id)sender {
-    
+    HSPopover *popover = [HSPopover new];
+    popover.menuTitles = @[@"aa",@"bb",@"vv"];
+    [popover showInView:sender selected:^(NSInteger index) {
+        NSLog(@"%@",popover.menuTitles[index]);
+    }];
 }
 
 - (IBAction)nextAction:(id)sender {

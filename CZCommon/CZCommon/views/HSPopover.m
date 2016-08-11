@@ -94,7 +94,7 @@
         }
     }
     
-    CGFloat finalWith = MIN((maxWith + 80), (kHSSCREENWIDTH-30));
+    CGFloat finalWith = MIN((maxWith + 40), (kHSSCREENWIDTH-30));
     CGFloat finalHeight = kHSArrowH + self.tableView.contentSize.height;
     CGFloat finalX = arrowCeterX - finalWith * 0.5;
     CGFloat finalY = CGRectGetMaxY(triggerRect) + 10;
