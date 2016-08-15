@@ -30,7 +30,7 @@
 
 - (NSArray *)listTitles{
     if (_listTitles) return _listTitles;
-    _listTitles = @[@"PopoverView",@"NSProxy",@"Runtime",@"NewsAppHome"];
+    _listTitles = @[@"PopoverView",@"NSProxy",@"Runtime",@"NewsAppHome",@"vedioPlay"];
     return _listTitles;
 
 }
@@ -78,8 +78,9 @@
     } else if (indexPath.row == 3){
         NewsAppHomeController *newsVC = [storyBoard instantiateViewControllerWithIdentifier:@"NewsAppHomeController"];
         [UIApplication sharedApplication].keyWindow.rootViewController = newsVC;
-    }
+    } else if (indexPath.row == 4) {
     
+    }
     
     
 }

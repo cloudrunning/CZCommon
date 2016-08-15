@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D034CBF1D61637B0002A1F7 /* NSArray+NeuSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CBE1D61637B0002A1F7 /* NSArray+NeuSafe.m */; };
+		8D034CC21D6166E60002A1F7 /* NSObject+NeuImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CC11D6166E60002A1F7 /* NSObject+NeuImpChangeTool.m */; };
+		8D034CC51D616AE70002A1F7 /* NSDictionary+NeuSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CC41D616AE70002A1F7 /* NSDictionary+NeuSafe.m */; };
+		8D034CC81D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CC71D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m */; };
+		8D034CCB1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CCA1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m */; };
 		8D67CAE71D597E36001E3BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CAE61D597E36001E3BD4 /* main.m */; };
 		8D67CAEA1D597E36001E3BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CAE91D597E36001E3BD4 /* AppDelegate.m */; };
 		8D67CAF01D597E36001E3BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D67CAEE1D597E36001E3BD4 /* Main.storyboard */; };
@@ -39,6 +44,16 @@
 /* Begin PBXFileReference section */
 		027501E5D634C9855A77E4DD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		59DECC2662C555F12F7CC27E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D034CBD1D61637B0002A1F7 /* NSArray+NeuSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NeuSafe.h"; sourceTree = "<group>"; };
+		8D034CBE1D61637B0002A1F7 /* NSArray+NeuSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NeuSafe.m"; sourceTree = "<group>"; };
+		8D034CC01D6166E60002A1F7 /* NSObject+NeuImpChangeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NeuImpChangeTool.h"; sourceTree = "<group>"; };
+		8D034CC11D6166E60002A1F7 /* NSObject+NeuImpChangeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NeuImpChangeTool.m"; sourceTree = "<group>"; };
+		8D034CC31D616AE70002A1F7 /* NSDictionary+NeuSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NeuSafe.h"; sourceTree = "<group>"; };
+		8D034CC41D616AE70002A1F7 /* NSDictionary+NeuSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NeuSafe.m"; sourceTree = "<group>"; };
+		8D034CC61D618AEE0002A1F7 /* NSMutableArray+NeuSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+NeuSafe.h"; sourceTree = "<group>"; };
+		8D034CC71D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NeuSafe.m"; sourceTree = "<group>"; };
+		8D034CC91D6197380002A1F7 /* NSMutableDictionary+NeuSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NeuSafe.h"; sourceTree = "<group>"; };
+		8D034CCA1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NeuSafe.m"; sourceTree = "<group>"; };
 		8D67CAE21D597E36001E3BD4 /* CZCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D67CAE61D597E36001E3BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D67CAE81D597E36001E3BD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +128,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8D034CAC1D61629A0002A1F7 /* SafeTools */ = {
+			isa = PBXGroup;
+			children = (
+				8D034CBD1D61637B0002A1F7 /* NSArray+NeuSafe.h */,
+				8D034CBE1D61637B0002A1F7 /* NSArray+NeuSafe.m */,
+				8D034CC61D618AEE0002A1F7 /* NSMutableArray+NeuSafe.h */,
+				8D034CC71D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m */,
+				8D034CC31D616AE70002A1F7 /* NSDictionary+NeuSafe.h */,
+				8D034CC41D616AE70002A1F7 /* NSDictionary+NeuSafe.m */,
+				8D034CC91D6197380002A1F7 /* NSMutableDictionary+NeuSafe.h */,
+				8D034CCA1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m */,
+				8D034CC01D6166E60002A1F7 /* NSObject+NeuImpChangeTool.h */,
+				8D034CC11D6166E60002A1F7 /* NSObject+NeuImpChangeTool.m */,
+			);
+			path = SafeTools;
+			sourceTree = "<group>";
+		};
 		8D67CAD91D597E36001E3BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +194,7 @@
 		8D67CB041D599E07001E3BD4 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				8D034CAC1D61629A0002A1F7 /* SafeTools */,
 				8D67CB641D5C1DAF001E3BD4 /* NewsAppHomePage */,
 				8D67CB551D5AFF77001E3BD4 /* Runtime */,
 				8D67CB4B1D5AB469001E3BD4 /* NSProxy */,
@@ -418,20 +451,25 @@
 				8D67CB091D599E58001E3BD4 /* HSPopover.m in Sources */,
 				8D67CB611D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m in Sources */,
 				8D67CB1C1D59AE4C001E3BD4 /* NBNetworking.m in Sources */,
+				8D034CC81D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m in Sources */,
 				8D67CB211D59B675001E3BD4 /* NSArray+Util.m in Sources */,
 				8D67CB511D5AB4BD001E3BD4 /* HSClothesProvider.m in Sources */,
 				8D67CB161D59A8B5001E3BD4 /* CZRequest.m in Sources */,
 				8D67CB4E1D5AB499001E3BD4 /* HSBookProvider.m in Sources */,
+				8D034CC21D6166E60002A1F7 /* NSObject+NeuImpChangeTool.m in Sources */,
 				8D67CB541D5AB685001E3BD4 /* HSDealerProxy.m in Sources */,
 				8D67CB121D59A6C7001E3BD4 /* NSString+Util.m in Sources */,
 				8D67CAEA1D597E36001E3BD4 /* AppDelegate.m in Sources */,
+				8D034CCB1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m in Sources */,
 				8D67CB0C1D599E88001E3BD4 /* PopoverController.m in Sources */,
 				8D67CB5E1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m in Sources */,
 				8D67CB5B1D5B03E9001E3BD4 /* Person.m in Sources */,
+				8D034CC51D616AE70002A1F7 /* NSDictionary+NeuSafe.m in Sources */,
 				8D67CB271D59B6B4001E3BD4 /* NSObject+Util.m in Sources */,
 				8D67CB581D5B027B001E3BD4 /* RuntimeController.m in Sources */,
 				8D67CB671D5C1DD8001E3BD4 /* NewsAppHomeController.m in Sources */,
 				8D67CAE71D597E36001E3BD4 /* main.m in Sources */,
+				8D034CBF1D61637B0002A1F7 /* NSArray+NeuSafe.m in Sources */,
 				8D67CB241D59B683001E3BD4 /* NSDictionary+Util.m in Sources */,
 				8D67CB701D5C51F1001E3BD4 /* SocietyController.m in Sources */,
 				8D67CB011D597F15001E3BD4 /* MainTableViewController.m in Sources */,
