@@ -12,6 +12,7 @@
 #import "HSDealerProxy.h"
 #import "RuntimeController.h"
 #import "NewsAppHomeController.h"
+#import "TransationMainController.h"
 
 
 @interface MainTableViewController ()
@@ -30,7 +31,7 @@
 
 - (NSArray *)listTitles{
     if (_listTitles) return _listTitles;
-    _listTitles = @[@"PopoverView",@"NSProxy",@"Runtime",@"NewsAppHome",@"vedioPlay"];
+    _listTitles = @[@"PopoverView",@"NSProxy",@"Runtime",@"NewsAppHome",@"vedioPlay",@"transitionAnimation"];
     return _listTitles;
 
 }
@@ -80,6 +81,9 @@
         [UIApplication sharedApplication].keyWindow.rootViewController = newsVC;
     } else if (indexPath.row == 4) {
     
+    } else if (indexPath.row == 5) {
+        TransationMainController *main = [storyBoard instantiateViewControllerWithIdentifier:@"TransationMainController"];
+        [self.navigationController pushViewController:main animated:YES];
     }
     
     

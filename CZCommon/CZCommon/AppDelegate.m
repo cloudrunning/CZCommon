@@ -8,6 +8,14 @@
 
 #import "AppDelegate.h"
 
+#ifdef DEVELOP
+#define BaseUrl  @"开发环境"
+#elif UAT
+#define BaseUrl  @"UAT环境"
+#else
+#define BaseUrl  @"正式环境"
+#endif
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +25,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"%@",BaseUrl);
     return YES;
 }
 

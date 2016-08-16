@@ -146,6 +146,64 @@
             </objects>
             <point key="canvasLocation" x="-905" y="439"/>
         </scene>
+        <!--Transation Main Controller-->
+        <scene sceneID="rDM-kT-Ffe">
+            <objects>
+                <viewController storyboardIdentifier="TransationMainController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tpf-ft-OEX" customClass="TransationMainController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jf4-Hb-mEM"/>
+                        <viewControllerLayoutGuide type="bottom" id="tnL-IF-Wg8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ddU-GH-Lhe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEP-f0-OP6">
+                                <rect key="frame" x="199" y="285" width="203" height="30"/>
+                                <state key="normal" title="present model view controller"/>
+                                <connections>
+                                    <action selector="modelAction:" destination="Tpf-ft-OEX" eventType="touchUpInside" id="xr3-cm-g5m"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hEP-f0-OP6" firstAttribute="centerY" secondItem="ddU-GH-Lhe" secondAttribute="centerY" id="Bcp-QO-Jug"/>
+                            <constraint firstItem="hEP-f0-OP6" firstAttribute="centerX" secondItem="ddU-GH-Lhe" secondAttribute="centerX" id="xqG-0p-Yja"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tPc-h2-TpO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-877" y="1790"/>
+        </scene>
+        <!--Transation Detail Controller-->
+        <scene sceneID="zMq-Gc-2Ep">
+            <objects>
+                <viewController storyboardIdentifier="TransationDetailController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kkE-Et-fw4" customClass="TransationDetailController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zh9-n3-onx"/>
+                        <viewControllerLayoutGuide type="bottom" id="pvj-GT-Qso"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Hw-mX-D9D">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39m-v1-vMp">
+                                <rect key="frame" x="63" y="171" width="52" height="30"/>
+                                <state key="normal" title="dismiss"/>
+                                <connections>
+                                    <action selector="dismissAction:" destination="kkE-Et-fw4" eventType="touchUpInside" id="bwS-ZO-90Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1960784314" green="0.77647058820000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0Z-pE-lqU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-206" y="1793"/>
+        </scene>
         <!--News App Home Controller-->
         <scene sceneID="6sh-2V-hxn">
             <objects>
@@ -211,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cV4-kh-tdh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1002" y="1136"/>
+            <point key="canvasLocation" x="-884" y="1116"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YUw-5H-0Jh">

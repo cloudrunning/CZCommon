@@ -12,6 +12,17 @@
 		8D034CC51D616AE70002A1F7 /* NSDictionary+NeuSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CC41D616AE70002A1F7 /* NSDictionary+NeuSafe.m */; };
 		8D034CC81D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CC71D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m */; };
 		8D034CCB1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034CCA1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m */; };
+		8D034CD31D629C630002A1F7 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D034CD21D629C630002A1F7 /* Configuration.plist */; };
+		8D034CD51D629C740002A1F7 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D034CD41D629C740002A1F7 /* Configuration.plist */; };
+		8D034CD71D629C7B0002A1F7 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D034CD61D629C7B0002A1F7 /* Configuration.plist */; };
+		8D034CE11D62A06E0002A1F7 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D034CE01D62A06E0002A1F7 /* Configuration.plist */; };
+		8D034CE31D62A09A0002A1F7 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D034CE21D62A09A0002A1F7 /* Configuration.plist */; };
+		8D034CE51D62A0A20002A1F7 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D034CE41D62A0A20002A1F7 /* Configuration.plist */; };
+		8D034D171D62EBD40002A1F7 /* TransationMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034D161D62EBD40002A1F7 /* TransationMainController.m */; };
+		8D034D1A1D62EC710002A1F7 /* TransationDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034D191D62EC710002A1F7 /* TransationDetailController.m */; };
+		8D034D1D1D62EEA70002A1F7 /* PresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034D1C1D62EEA70002A1F7 /* PresentAnimator.m */; };
+		8D034D231D62F7F40002A1F7 /* TransitionPresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034D221D62F7F40002A1F7 /* TransitionPresentAnimation.m */; };
+		8D034D261D62F80D0002A1F7 /* TransitionDismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D034D251D62F80D0002A1F7 /* TransitionDismissAnimation.m */; };
 		8D67CAE71D597E36001E3BD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CAE61D597E36001E3BD4 /* main.m */; };
 		8D67CAEA1D597E36001E3BD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D67CAE91D597E36001E3BD4 /* AppDelegate.m */; };
 		8D67CAF01D597E36001E3BD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D67CAEE1D597E36001E3BD4 /* Main.storyboard */; };
@@ -54,6 +65,22 @@
 		8D034CC71D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+NeuSafe.m"; sourceTree = "<group>"; };
 		8D034CC91D6197380002A1F7 /* NSMutableDictionary+NeuSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+NeuSafe.h"; sourceTree = "<group>"; };
 		8D034CCA1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+NeuSafe.m"; sourceTree = "<group>"; };
+		8D034CD21D629C630002A1F7 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Configuration.plist; path = /Users/caozhen/Documents/MyGithub/CZCommon/CZCommon/CZCommon/config/Debug/Configuration.plist; sourceTree = "<absolute>"; };
+		8D034CD41D629C740002A1F7 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Configuration.plist; path = /Users/caozhen/Documents/MyGithub/CZCommon/CZCommon/CZCommon/config/Release/Configuration.plist; sourceTree = "<absolute>"; };
+		8D034CD61D629C7B0002A1F7 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Configuration.plist; path = /Users/caozhen/Documents/MyGithub/CZCommon/CZCommon/CZCommon/config/UAT/Configuration.plist; sourceTree = "<absolute>"; };
+		8D034CE01D62A06E0002A1F7 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		8D034CE21D62A09A0002A1F7 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		8D034CE41D62A0A20002A1F7 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
+		8D034D151D62EBD40002A1F7 /* TransationMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransationMainController.h; sourceTree = "<group>"; };
+		8D034D161D62EBD40002A1F7 /* TransationMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransationMainController.m; sourceTree = "<group>"; };
+		8D034D181D62EC710002A1F7 /* TransationDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransationDetailController.h; sourceTree = "<group>"; };
+		8D034D191D62EC710002A1F7 /* TransationDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransationDetailController.m; sourceTree = "<group>"; };
+		8D034D1B1D62EEA70002A1F7 /* PresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentAnimator.h; sourceTree = "<group>"; };
+		8D034D1C1D62EEA70002A1F7 /* PresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentAnimator.m; sourceTree = "<group>"; };
+		8D034D211D62F7F40002A1F7 /* TransitionPresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionPresentAnimation.h; sourceTree = "<group>"; };
+		8D034D221D62F7F40002A1F7 /* TransitionPresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionPresentAnimation.m; sourceTree = "<group>"; };
+		8D034D241D62F80D0002A1F7 /* TransitionDismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionDismissAnimation.h; sourceTree = "<group>"; };
+		8D034D251D62F80D0002A1F7 /* TransitionDismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionDismissAnimation.m; sourceTree = "<group>"; };
 		8D67CAE21D597E36001E3BD4 /* CZCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D67CAE61D597E36001E3BD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D67CAE81D597E36001E3BD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -145,6 +172,64 @@
 			path = SafeTools;
 			sourceTree = "<group>";
 		};
+		8D034CDC1D62A05D0002A1F7 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				8D034CDD1D62A05D0002A1F7 /* Debug */,
+				8D034CDE1D62A05D0002A1F7 /* Release */,
+				8D034CDF1D62A05D0002A1F7 /* UAT */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		8D034CDD1D62A05D0002A1F7 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				8D034CE01D62A06E0002A1F7 /* Configuration.plist */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		8D034CDE1D62A05D0002A1F7 /* Release */ = {
+			isa = PBXGroup;
+			children = (
+				8D034CE21D62A09A0002A1F7 /* Configuration.plist */,
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		8D034CDF1D62A05D0002A1F7 /* UAT */ = {
+			isa = PBXGroup;
+			children = (
+				8D034CE41D62A0A20002A1F7 /* Configuration.plist */,
+			);
+			path = UAT;
+			sourceTree = "<group>";
+		};
+		8D034D131D62EB300002A1F7 /* transationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8D034D151D62EBD40002A1F7 /* TransationMainController.h */,
+				8D034D161D62EBD40002A1F7 /* TransationMainController.m */,
+				8D034D181D62EC710002A1F7 /* TransationDetailController.h */,
+				8D034D191D62EC710002A1F7 /* TransationDetailController.m */,
+			);
+			path = transationAnimation;
+			sourceTree = "<group>";
+		};
+		8D034D141D62EB640002A1F7 /* transationAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8D034D1B1D62EEA70002A1F7 /* PresentAnimator.h */,
+				8D034D1C1D62EEA70002A1F7 /* PresentAnimator.m */,
+				8D034D211D62F7F40002A1F7 /* TransitionPresentAnimation.h */,
+				8D034D221D62F7F40002A1F7 /* TransitionPresentAnimation.m */,
+				8D034D241D62F80D0002A1F7 /* TransitionDismissAnimation.h */,
+				8D034D251D62F80D0002A1F7 /* TransitionDismissAnimation.m */,
+			);
+			path = transationAnimation;
+			sourceTree = "<group>";
+		};
 		8D67CAD91D597E36001E3BD4 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +271,7 @@
 		8D67CAE51D597E36001E3BD4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8D034CDC1D62A05D0002A1F7 /* config */,
 				8D67CAE61D597E36001E3BD4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -194,6 +280,7 @@
 		8D67CB041D599E07001E3BD4 /* modules */ = {
 			isa = PBXGroup;
 			children = (
+				8D034D141D62EB640002A1F7 /* transationAnimation */,
 				8D034CAC1D61629A0002A1F7 /* SafeTools */,
 				8D67CB641D5C1DAF001E3BD4 /* NewsAppHomePage */,
 				8D67CB551D5AFF77001E3BD4 /* Runtime */,
@@ -207,6 +294,7 @@
 		8D67CB051D599E17001E3BD4 /* vcs */ = {
 			isa = PBXGroup;
 			children = (
+				8D034D131D62EB300002A1F7 /* transationAnimation */,
 				8D67CB0A1D599E88001E3BD4 /* PopoverController.h */,
 				8D67CB0B1D599E88001E3BD4 /* PopoverController.m */,
 				8D67CB561D5B027B001E3BD4 /* RuntimeController.h */,
@@ -386,8 +474,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D67CAF51D597E36001E3BD4 /* LaunchScreen.storyboard in Resources */,
+				8D034CE31D62A09A0002A1F7 /* Configuration.plist in Resources */,
 				8D67CB711D5C51F1001E3BD4 /* SocietyController.xib in Resources */,
+				8D034CE51D62A0A20002A1F7 /* Configuration.plist in Resources */,
+				8D034CD51D629C740002A1F7 /* Configuration.plist in Resources */,
 				8D67CAF21D597E36001E3BD4 /* Assets.xcassets in Resources */,
+				8D034CD31D629C630002A1F7 /* Configuration.plist in Resources */,
+				8D034CD71D629C7B0002A1F7 /* Configuration.plist in Resources */,
+				8D034CE11D62A06E0002A1F7 /* Configuration.plist in Resources */,
 				8D67CB631D5B1FB9001E3BD4 /* personJSON.geojson in Resources */,
 				8D67CAF01D597E36001E3BD4 /* Main.storyboard in Resources */,
 			);
@@ -449,7 +543,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D67CB091D599E58001E3BD4 /* HSPopover.m in Sources */,
+				8D034D1A1D62EC710002A1F7 /* TransationDetailController.m in Sources */,
 				8D67CB611D5B10DB001E3BD4 /* NSObject+EnAndDecoder.m in Sources */,
+				8D034D1D1D62EEA70002A1F7 /* PresentAnimator.m in Sources */,
 				8D67CB1C1D59AE4C001E3BD4 /* NBNetworking.m in Sources */,
 				8D034CC81D618AEE0002A1F7 /* NSMutableArray+NeuSafe.m in Sources */,
 				8D67CB211D59B675001E3BD4 /* NSArray+Util.m in Sources */,
@@ -463,6 +559,7 @@
 				8D034CCB1D6197380002A1F7 /* NSMutableDictionary+NeuSafe.m in Sources */,
 				8D67CB0C1D599E88001E3BD4 /* PopoverController.m in Sources */,
 				8D67CB5E1D5B08EC001E3BD4 /* NSString+runtimeAddProperty.m in Sources */,
+				8D034D231D62F7F40002A1F7 /* TransitionPresentAnimation.m in Sources */,
 				8D67CB5B1D5B03E9001E3BD4 /* Person.m in Sources */,
 				8D034CC51D616AE70002A1F7 /* NSDictionary+NeuSafe.m in Sources */,
 				8D67CB271D59B6B4001E3BD4 /* NSObject+Util.m in Sources */,
@@ -472,7 +569,9 @@
 				8D034CBF1D61637B0002A1F7 /* NSArray+NeuSafe.m in Sources */,
 				8D67CB241D59B683001E3BD4 /* NSDictionary+Util.m in Sources */,
 				8D67CB701D5C51F1001E3BD4 /* SocietyController.m in Sources */,
+				8D034D171D62EBD40002A1F7 /* TransationMainController.m in Sources */,
 				8D67CB011D597F15001E3BD4 /* MainTableViewController.m in Sources */,
+				8D034D261D62F80D0002A1F7 /* TransitionDismissAnimation.m in Sources */,
 				8D67CB6A1D5C1E37001E3BD4 /* SFSelectionBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,10 +598,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8D67CAF71D597E36001E3BD4 /* Debug */ = {
+		8D034CCC1D6294FD0002A1F7 /* UAT */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconUAT;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -519,6 +619,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CustomAppBundleId = com.neusoft.czdomain.uat;
+				CustomProductName = "用户验收版";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -527,7 +629,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+					"UAT=1",
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -539,14 +641,30 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.czdomain.uat;
 				SDKROOT = iphoneos;
 			};
-			name = Debug;
+			name = UAT;
 		};
-		8D67CAF81D597E36001E3BD4 /* Release */ = {
+		8D034CCD1D6294FD0002A1F7 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 027501E5D634C9855A77E4DD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CZCommon/CZCommonPrefixHeader.pch";
+				INFOPLIST_FILE = CZCommon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.CZCommon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = UAT;
+		};
+		8D67CAF71D597E36001E3BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDebug;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -563,11 +681,62 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CustomAppBundleId = com.neusoft.czdomain.debug;
+				CustomProductName = "测试版";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOP=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.czdomain.debug;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D67CAF81D597E36001E3BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CustomAppBundleId = com.neusoft.czdomain.release;
+				CustomProductName = "正式版";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "PRODUTION=1";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -576,6 +745,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neusoft.czdomain.release;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -616,6 +786,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D67CAF71D597E36001E3BD4 /* Debug */,
+				8D034CCC1D6294FD0002A1F7 /* UAT */,
 				8D67CAF81D597E36001E3BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -625,6 +796,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D67CAFA1D597E36001E3BD4 /* Debug */,
+				8D034CCD1D6294FD0002A1F7 /* UAT */,
 				8D67CAFB1D597E36001E3BD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

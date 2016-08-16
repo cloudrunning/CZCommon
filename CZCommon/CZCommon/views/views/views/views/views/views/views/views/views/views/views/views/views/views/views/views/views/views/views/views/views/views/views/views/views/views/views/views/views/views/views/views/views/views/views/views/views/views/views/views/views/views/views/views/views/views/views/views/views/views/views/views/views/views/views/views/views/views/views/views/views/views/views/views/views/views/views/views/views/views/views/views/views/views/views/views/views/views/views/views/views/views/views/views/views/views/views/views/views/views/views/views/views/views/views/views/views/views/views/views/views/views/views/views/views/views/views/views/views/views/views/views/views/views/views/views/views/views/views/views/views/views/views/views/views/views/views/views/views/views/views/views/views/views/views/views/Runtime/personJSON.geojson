@@ -1,0 +1,24 @@
+{
+    "name": "caozhen",
+    "age":25,
+    "weight":139,
+    "height":170,
+    "dog":{
+        "name":"erha",
+        "price":"$500",
+        "fish":{
+            "name":"xiaoliyu",
+            "price":"¥1",
+        }
+    },
+    "books": [
+              {
+              "name":"C语言",
+              "author":"ming",
+              },
+              {
+              "name":"Java语言",
+              "author":"liang",
+              },
+    ]
+}
