@@ -1,5 +1,5 @@
 //
-//  TransationDetailController.h
+//  PopAnimationDetailController.h
 //  CZCommon
 //
 //  Created by caozhen@neusoft on 16/8/16.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TransationDetailController : UIViewController
+@interface PopAnimationDetailController : UIViewController
+
 
 @end

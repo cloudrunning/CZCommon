@@ -1,18 +1,18 @@
 //
-//  TransationDetailController.m
+//  PopAnimationDetailController.m
 //  CZCommon
 //
 //  Created by caozhen@neusoft on 16/8/16.
 //  Copyright © 2016年 Neusoft. All rights reserved.
 //
 
-#import "TransationDetailController.h"
+#import "PopAnimationDetailController.h"
 
-@interface TransationDetailController ()
+@interface PopAnimationDetailController ()
 
 @end
 
-@implementation TransationDetailController
+@implementation PopAnimationDetailController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

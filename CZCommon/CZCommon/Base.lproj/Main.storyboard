@@ -147,9 +147,43 @@
             <point key="canvasLocation" x="-905" y="439"/>
         </scene>
         <!--Transation Main Controller-->
+        <scene sceneID="lB9-iq-Ule">
+            <objects>
+                <viewController storyboardIdentifier="TransationMainController" id="lIC-SI-rRR" customClass="TransationMainController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="emn-HU-O4V"/>
+                        <viewControllerLayoutGuide type="bottom" id="6qZ-hx-SS9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mfi-ZF-j3e">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x5j-GB-4j7">
+                                <rect key="frame" x="43" y="79" width="133" height="30"/>
+                                <state key="normal" title="transitionAnimation"/>
+                                <connections>
+                                    <segue destination="Tpf-ft-OEX" kind="show" id="zTw-do-fPA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jT-u8-dfI">
+                                <rect key="frame" x="43" y="147" width="110" height="30"/>
+                                <state key="normal" title="revealAnimation"/>
+                                <connections>
+                                    <segue destination="0q2-Of-qWh" kind="show" identifier="revealAnim" id="qqc-JZ-x2D"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f18-3S-QHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1554" y="1795"/>
+        </scene>
+        <!--Pop Animation Controller-->
         <scene sceneID="rDM-kT-Ffe">
             <objects>
-                <viewController storyboardIdentifier="TransationMainController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tpf-ft-OEX" customClass="TransationMainController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PopAnimationController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Tpf-ft-OEX" customClass="PopAnimationController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jf4-Hb-mEM"/>
                         <viewControllerLayoutGuide type="bottom" id="tnL-IF-Wg8"/>
@@ -177,10 +211,57 @@
             </objects>
             <point key="canvasLocation" x="-877" y="1790"/>
         </scene>
-        <!--Transation Detail Controller-->
+        <!--Reveal Anim Controller-->
+        <scene sceneID="xjb-WD-uwT">
+            <objects>
+                <viewController storyboardIdentifier="RevealAnimController" id="0q2-Of-qWh" customClass="RevealAnimController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KwY-ba-jaw"/>
+                        <viewControllerLayoutGuide type="bottom" id="MZQ-iW-GCR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="R8j-aD-GRU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jm9-tp-TnO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-866" y="2559"/>
+        </scene>
+        <!--Reveal Anim Detail Controller-->
+        <scene sceneID="jeH-gj-sUH">
+            <objects>
+                <viewController storyboardIdentifier="RevealAnimDetailController" id="vBE-R4-13l" customClass="RevealAnimDetailController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TLZ-dr-UBr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mda-C6-ylC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HqI-nS-1eM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="anise" translatesAutoresizingMaskIntoConstraints="NO" id="t2s-Oy-Fjr">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t2s-Oy-Fjr" firstAttribute="leading" secondItem="HqI-nS-1eM" secondAttribute="leading" id="92P-iI-nJa"/>
+                            <constraint firstAttribute="trailing" secondItem="t2s-Oy-Fjr" secondAttribute="trailing" id="9Ss-Zf-R92"/>
+                            <constraint firstItem="t2s-Oy-Fjr" firstAttribute="top" secondItem="TLZ-dr-UBr" secondAttribute="bottom" id="Bpm-IF-ZVH"/>
+                            <constraint firstItem="Mda-C6-ylC" firstAttribute="top" secondItem="t2s-Oy-Fjr" secondAttribute="bottom" id="l6i-bY-sQE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iIj-Zb-16H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-220" y="2585"/>
+        </scene>
+        <!--Pop Animation Detail Controller-->
         <scene sceneID="zMq-Gc-2Ep">
             <objects>
-                <viewController storyboardIdentifier="TransationDetailController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kkE-Et-fw4" customClass="TransationDetailController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PopAnimationDetailController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kkE-Et-fw4" customClass="PopAnimationDetailController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Zh9-n3-onx"/>
                         <viewControllerLayoutGuide type="bottom" id="pvj-GT-Qso"/>
@@ -288,4 +369,7 @@
             <point key="canvasLocation" x="-2516" y="439"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="anise" width="320" height="568"/>
+    </resources>
 </document>
